@@ -1,0 +1,40 @@
+
+[paths]
+PINN_dir = "C:/Users/haddadchia/Dropbox/Neshat/Machine Learning/PINN_Sed"
+loss_directory = "C:/Users/haddadchia/Dropbox/Neshat/Machine Learning/PINN_Sed"
+output_csv_name = "loss_output.csv"
+input_file = "No1to8_data.xlsx"
+
+[data]
+sheet = "C-Input"
+columns = "A:AA"
+
+[scaling]
+c_divisor = 1000
+
+[constants]
+Cri1 = 10
+Cri2 = 10
+Cri3 = 10
+ki = 0.3
+Fi = 1.0e-8
+rho = 1000
+g = 9.806
+rhos = 2650
+c_alpha=1
+di=1.6e-05
+
+[x_domain.case1]
+start = 0
+dx = 956
+steps = 12
+
+[x_domain.case2]
+start = 0
+dx = 3188
+steps = 12
+
+[x_domain.case3]
+start = 0
+dx = 1658
+steps = 12
